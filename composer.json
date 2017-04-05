@@ -1,0 +1,29 @@
+{
+  "name": "medlib/installer",
+  "description": "Medlib application installer.",
+  "keywords": ["medlib", "installer"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patrick LUZOLO",
+      "email": "eldorplus@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Medlib\\Installer\\": "src/"
+    }
+  },
+  "require": {
+    "ext-zip": "*",
+    "symfony/console": "~2.7|~3.0",
+    "symfony/process": "~2.7|~3.0",
+    "illuminate/support": "~5.3|~5.4",
+    "illuminate/filesystem": "~5.3|~5.4",
+    "guzzlehttp/guzzle": "~6.0",
+    "symfony/filesystem": "^3.2"
+  },
+  "bin": [
+    "medlib"
+  ]
+}
