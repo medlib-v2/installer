@@ -18,12 +18,15 @@ You should clone this repository to any location on your system, then run the `c
 #### Running
 After purchasing a Github token, run the `medlib register` command with your API token generated from the [Github](https://github.com) website.
 
-    medlib register token-value
-
+```bash
+medlib register token-value
+```
 #### Creating Projects
 
 Once your Github token has been registered, you can run the `new` command to create new projects:
 
-    medlib new project-name
+```bash
+medlib new project-name
+```
 
 After the project has been created, don't forget to run your database migrations!
